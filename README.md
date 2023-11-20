@@ -1,4 +1,4 @@
-#include<stdio.h>     //reverse the number 
+#include<stdio.h>     //reverse the numbers
 int main () {
     printf("the the number");
     scanf("%d",&n);
