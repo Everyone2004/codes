@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main(){
+  printf("the number ");
+scanf("%d",&n);
+t=n 
+while(n!=0)
+   { n=n/10;
+     rev=rev*10+rd;
+     n=n/10;
+}
+if(t==rev) { 
+   printf("palindrom");}
+else 
+printf("not a palindrom");
+  return 0;
+}
