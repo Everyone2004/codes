@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{ 
+   int td,ty,tm,bm,by,bd,d,m,y;
+   printf("enter the present day day month year:");
+   printf("enter the birthday day month year:");
+   scanf("%d%d%d",&td,&tm,&tm);d
+   scanf("%d%d%d",&bd,&bm,&by);
+   if(td<bd)
+       { 
+          td=td+30;
+          tm--;
+          }
+          d=td-bd;
+if(tm<bm)
+          {  
+ tm=tm+12;
+ ty--
+ }
+ m=tm-bm;
+ y=ty-bm;
+ return 0;
+ }
