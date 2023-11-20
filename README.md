@@ -1,5 +1,6 @@
 #include<stdio.h>     //reverse the number 
 int main () {
+int rev,n,rd;
     printf("the the number");
     scanf("%d",&n);
     while(n!=0) 
