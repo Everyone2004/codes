@@ -1,19 +1,20 @@
 #include<stdio.h>
 void main ()
 {
-  int f,n;
+  int i,f,n;
 int fab(int);
 printf("enter the n value");
 scanf("%d",&n);
 for(i=0;i<n;i++)
   {
-f=fab();
-printf("%d",f);
+   f=fab(i);
+   printf("%d\t",f);
 }
-void fab(int n)
+  int fab(int i)
 { 
   if(i<2)
-return i;
+ return i;
 else 
-     return((i-1)+(i-2))
-
+    return(fab(i-1)+fab(i-2));   
+}
+}
